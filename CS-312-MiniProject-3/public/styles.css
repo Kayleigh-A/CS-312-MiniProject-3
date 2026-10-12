@@ -1,0 +1,41 @@
+body{
+    background-color: #f6f3ee;
+    color: #412e26;
+}
+
+*{
+    font-family: "Englebert", cursive;
+}
+
+.main-header {
+    border-bottom: 1px solid #412e26;
+}
+.card{
+    border-radius: 16px;
+}
+.post-card{
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.post-card:hover{
+    transform: translate(3px, -3px);
+}
+.post-info{
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.btn-primary{
+    background-color:#412e26;
+    border-color:black
+}
+
+.btn-primary:hover{
+    background-color:antiquewhite;
+    color:#412e26;
+    border-color:#412e26;
+}
+
+.form-control:focus{
+    border-color:#9b7964;
+    box-shadow: 0 0 0 0.25rem rgba(118, 88, 70, 0.15);
+}
